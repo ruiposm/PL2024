@@ -52,7 +52,8 @@ def distribuicao_escalao_etario(data):
             distribuicao[escalao] = 0
         distribuicao[escalao] += 1
     return distribuicao
-# Nome do arquivo
+    
+# Nome do ficheiro
 file_name = "emd.csv"
 
 # Ler o dataset
