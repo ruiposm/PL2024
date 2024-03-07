@@ -6,7 +6,7 @@ TOKENS = [
     ('WHERE', r'WHERE'),
     ('ID', r'[a-zA-Z_]\w*'), 
     ('NUMBER', r'\d+'), 
-    ('COMMA', r','),
+    ('VIRGULA', r','),
     ('GREATER_EQUAL', r'>='),
     ('ERROR', r'.')
 ]
