@@ -76,16 +76,13 @@ class VendingMachine:
         print("Pode retirar o troco:", ", ".join(moedas))
         print("Até à próxima")
 
-    @staticmethod
     def parse_moeda(moeda_str):
         valores = {'1e': 100, '50c': 50, '20c': 20, '10c': 10, '5c': 5, '2c': 2, '1c': 1}
         return valores[moeda_str]
 
-    @staticmethod
-    def format_moeda(valor):
+        def format_moeda(valor):
         return f"{valor // 100}e{valor % 100}c"
 
-# Exemplo de utilização
 if __name__ == "__main__":
     maquina = VendingMachine()
     print("maq: 2024-03-08, Stock carregado, Estado atualizado.")
